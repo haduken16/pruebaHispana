@@ -14,6 +14,4 @@ public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
     public Cliente save(Cliente cliente);
 
     public boolean existsByIdentificacion (String identificacion);
-
-    public Cliente updateByVehiculos(Cliente cliente);
 }
