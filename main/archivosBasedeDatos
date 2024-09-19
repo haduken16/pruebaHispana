@@ -1,0 +1,6 @@
+//Archivos de base de datos MySql WorkBench
+
+create database bdhispanaprueba;
+use bdhispanaprueba;
+
+//las tablas se crean con el hibernate
